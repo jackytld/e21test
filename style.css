@@ -28,9 +28,9 @@
 
   html, body {
     box-sizing: border-box;
-    background-color: #9c9c9c;
+    background-color: #81bcff;
     height: 100%;
-    padding: 10px;
+    padding: 30px;
     max-width: 80%;
     margin: auto;
   }
@@ -38,7 +38,7 @@
 .container {
     display: grid;
     height: 100%;
-    grid-gap: 5px;
+    grid-gap: 10px;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: 100px auto 100px;
     grid-template-areas: 
